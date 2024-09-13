@@ -30,9 +30,9 @@ def find_terms_add_to_glossary(glossary, blog, header_dict, overwrite = True):
   
   # Clean out website and image links that will create entries for file-type explanations in the glossary
   # Images embedded in links
-  blog = re.sub("\[!?\[([^]]*)\]\([^)]+\)\]\([^)]+\)", "\1", blog)
+  blog = re.sub(r"\[!?\[([^]]*)\]\([^)]+\)\]\([^)]+\)", "\1", blog)
   # Simple images and links
-  blog = re.sub("!?\[([^]]*)\]\([^)]+\)", "\1", blog)
+  blog = re.sub(r"!?\[([^]]*)\]\([^)]+\)", "\1", blog)
   
   # Loop through terms and add them to the blog's glossary if they are found
   found_term = False
