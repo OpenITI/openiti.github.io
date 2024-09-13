@@ -195,7 +195,7 @@ def find_yml_docx_data(in_dir, file_list):
   """Loop through a list of directories and find the yml files return a list of dictionaries pairing the yml header to the docx files"""
   out_list = []
   out_gloss = []
-  yml = re.compile(".*\.yml")
+  yml = re.compile(r".*\.yml")
   for in_path in file_list:    
     if yml.match(in_path):
       # Load yml as text file
@@ -342,7 +342,7 @@ def main(add_image = True, add_excerpt=True):
   else:
     gloss_found = False
 
-  docx_check = re.compile(".*\.docx")
+  docx_check = re.compile(r".*\.docx")
   # Loop through the pairs run the conversion and build the output text
   for docx in docx_data_pairs:
     # If we have new author - add the author's bio to the authors.yml
@@ -410,6 +410,6 @@ if __name__ == "__main__":
 ## ADD LINES FOR THUMBNAILS
 ## ADD REGEX FOR FIXING FN
 
-""" FOOTENOTE REGEX: 1. \[(\d{1,2}\])[^(], [^\1 2. (\n\[\^\d{1,2}\])[^(] , \1: """
-""" Table REGEX removing lines: ((\|.*)+\|)\r\r , \1\n """
-""" Wrong heading regex: (.*\r)\r\n.*-{3,40} , ## \1"""
+r""" FOOTENOTE REGEX: 1. \[(\d{1,2}\])[^(], [^\1 2. (\n\[\^\d{1,2}\])[^(] , \1: """
+r""" Table REGEX removing lines: ((\|.*)+\|)\r\r , \1\n """
+r""" Wrong heading regex: (.*\r)\r\n.*-{3,40} , ## \1"""
