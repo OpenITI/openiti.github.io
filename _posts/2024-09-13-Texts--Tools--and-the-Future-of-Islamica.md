@@ -1,8 +1,8 @@
 ---
 author: Jonathan Parkes Allen
 excerpt: 'We know that our colleagues across Islamicate humanities are working on a vast range of topics, incorporating innovative methods, tools, and theoretical approaches, and thinking about the implications of textual and other technologies on their subjects, research methods, and pedagogical practices. We all interact with texts in some form or another, especially when we define 'text' in an expansive manner, recognizing the textually-entangled nature of objects and practices and ideas that do not fall neatly into the usual categories...'
-image: /images/blogs/2024-09-13/Texts--Tools--and-the-Future-of-IslamicaJonathan Parkes
-  Allen/media/image1.jpeg
+image: '/images/blogs/2024-09-13/Texts--Tools--and-the-Future-of-IslamicaJonathan Parkes
+  Allen/media/image1.jpeg'
 layout: post
 tags: null
 title: 'Texts, Tools, and the Future of Islamicate Humanities: OpenITI Conversations'
