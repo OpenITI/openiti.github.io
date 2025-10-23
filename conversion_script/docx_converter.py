@@ -178,7 +178,7 @@ def build_file_name(blog_dir, header_dict):
     
     
 #     final = head_in + "\n\n" + blog
-#     title = re.findall("title:.*\"(.*)\"", head_in)
+#     title = re.findall(r"title:.*\"(.*)\"", head_in)
 
 #     if len(title) > 0 and title[0] != "":
 #         title_s = re.sub(r"[\s:/.,]", "-", title[0])[:40]
