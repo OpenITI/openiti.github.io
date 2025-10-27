@@ -24,7 +24,7 @@ def set_directories():
 
 def clean_yml_to_dict(yml_text):  
     # Clear any tabs that may interfere with parsing
-    yml_text = re.sub("\t", " ", yml_text)
+    yml_text = re.sub(r"\t", " ", yml_text)
     # Load the yaml
     yml_dict = yaml.safe_load(yml_text)
     return yml_dict
