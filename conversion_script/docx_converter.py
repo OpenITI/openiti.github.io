@@ -410,6 +410,6 @@ if __name__ == "__main__":
 ## ADD LINES FOR THUMBNAILS
 ## ADD REGEX FOR FIXING FN
 
-""" FOOTENOTE REGEX: 1. \[(\d{1,2}\])[^(], [^\1 2. (\n\[\^\d{1,2}\])[^(] , \1: """
-""" Table REGEX removing lines: ((\|.*)+\|)\r\r , \1\n """
-""" Wrong heading regex: (.*\r)\r\n.*-{3,40} , ## \1"""
+r""" FOOTENOTE REGEX: 1. \[(\d{1,2}\])[^(], [^\1 2. (\n\[\^\d{1,2}\])[^(] , \1: """
+r""" Table REGEX removing lines: ((\|.*)+\|)\r\r , \1\n """
+r""" Wrong heading regex: (.*\r)\r\n.*-{3,40} , ## \1"""
