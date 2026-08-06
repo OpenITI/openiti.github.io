@@ -25,6 +25,8 @@ Two phases of the project have been funded until now:
   by incorporating newly developed unsupervised machine learning tools into its workflow. 
   [Read more](OpenITI%20AOCP%20Phase%20Two.html)
 
-OpenITI AOCP invested in expanding the open OCR platform [eScriptorium](https://gitlab.com/scripta/escriptorium); the OpenITI instance of eScriptorium can be found [here](https://escriptorium.openiti.org/).
+OpenITI AOCP invested in expanding Scripta's open OCR platform [eScriptorium](https://gitlab.com/scripta/escriptorium); 
+the OpenITI instance of eScriptorium can be found [here](https://escriptorium.openiti.org/).
 
-Segmentation and transcription models trained for Arabic script in the context of this project can be found [here](https://github.com/OpenITI/arabic_script_ocr_models) and [here](https://github.com/OpenITI/acdc_results).
+Segmentation and transcription models trained for Arabic script in the context of this project can be found [here](https://github.com/OpenITI/arabic_script_ocr_models). 
+These are [Kraken](https://kraken.re/) models, which can be used in eScriptorium or via the command line.
